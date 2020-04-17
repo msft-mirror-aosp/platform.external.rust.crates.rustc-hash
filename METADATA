@@ -1,0 +1,19 @@
+name: "rustc-hash"
+description: "A speedy hash algorithm used within rustc. The hashmap in liballoc by default uses SipHash which isn\'t quite as speedy as we want. In the compiler we\'re not really worried about DOS attempts, so we use a fast non-cryptographic hash."
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://crates.io/crates/rustc-hash"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/rust-lang-nursery/rustc-hash"
+  }
+  version: "1.1.0"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2020
+    month: 3
+    day: 31
+  }
+}

@@ -6,8 +6,8 @@ third_party {
     value: "https://crates.io/crates/rustc-hash"
   }
   url {
-    type: GIT
-    value: "https://github.com/rust-lang-nursery/rustc-hash"
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/rustc-hash/rustc-hash-1.1.0.crate"
   }
   version: "1.1.0"
   license_type: NOTICE

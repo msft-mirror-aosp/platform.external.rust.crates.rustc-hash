@@ -1,5 +1,5 @@
 name: "rustc-hash"
-description: "A speedy hash algorithm used within rustc. The hashmap in liballoc by default uses SipHash which isn\'t quite as speedy as we want. In the compiler we\'re not really worried about DOS attempts, so we use a fast non-cryptographic hash."
+description: "speed, non-cryptographic hash used in rustc"
 third_party {
   url {
     type: HOMEPAGE

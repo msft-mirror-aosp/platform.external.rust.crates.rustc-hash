@@ -2,15 +2,7 @@
 {
   "presubmit": [
     {
-      "host": true,
-      "name": "rustc-hash_host_test_src_lib"
-    },
-    {
       "name": "rustc-hash_device_test_src_lib"
-    },
-    {
-      "host": true,
-      "name": "libsqlite3-sys_host_test_src_lib"
     },
     {
       "name": "libsqlite3-sys_device_test_src_lib"
